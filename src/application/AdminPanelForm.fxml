@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="668.0" prefWidth="612.0" style="-fx-background-color: white; -fx-border-width: 5; -fx-border-color: #D5B8EB;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminPanelFormController">
+   <children>
+      <Label layoutX="255.0" layoutY="14.0" prefHeight="20.0" prefWidth="102.0" text="ADMİN PANEL" textFill="#b779e7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button id="btn" fx:id="btn_cıkıs" layoutX="465.0" layoutY="608.0" mnemonicParsing="false" onAction="#btn_cıkıs_click" stylesheets="@application.css" text="ÇIKIŞ YAP" />
+      <Button id="btn" fx:id="btn_guncelle" layoutX="320.0" layoutY="608.0" mnemonicParsing="false" onAction="#btn_guncelle_click" stylesheets="@application.css" text="GÜNCELLE" />
+      <TableView fx:id="table1" layoutX="14.0" layoutY="48.0" onMouseClicked="#table_click" prefHeight="356.0" prefWidth="584.0" style="-fx-border-color: #b779e7; -fx-border-width: 2;">
+        <columns>
+          <TableColumn fx:id="table_urun" prefWidth="184.79999351501465" text="ÜRÜN" />
+          <TableColumn fx:id="table_fiyat" prefWidth="199.20001220703125" text="FİYAT" />
+            <TableColumn fx:id="table_stokdrm" prefWidth="198.39999389648438" text="STOK DURUMU" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txt_fiyat" layoutX="163.0" layoutY="484.0" style="-fx-border-color: #b779e7; -fx-border-radius: 40; -fx-background-radius: 40;" />
+      <TextField fx:id="txt_stokdurum" layoutX="163.0" layoutY="539.0" style="-fx-border-color: #b779e7; -fx-border-radius: 40; -fx-background-radius: 40;" />
+      <Label layoutX="100.0" layoutY="487.0" text="Fiyat :" textFill="#b779e7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="44.0" layoutY="542.0" text="Stok Durumu :" textFill="#b779e7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="442.0" text="Ürün :" textFill="#b779e7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_urun" layoutX="170.0" layoutY="442.0" prefHeight="20.0" prefWidth="151.0" textFill="#b779e7">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button id="btn" fx:id="btn_yenile" layoutX="185.0" layoutY="608.0" mnemonicParsing="false" onAction="#btn_yenile_click" prefHeight="30.0" prefWidth="103.0" stylesheets="@application.css" text="YENİLE" />
+      <Button id="btn" fx:id="btn_adminekleme" layoutX="18.0" layoutY="608.0" mnemonicParsing="false" onAction="#btn_adminekleme_click" prefHeight="30.0" prefWidth="134.0" stylesheets="@application.css" text="Admin Ekleme" />
+   </children>
+</AnchorPane>

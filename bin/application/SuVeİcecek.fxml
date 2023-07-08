@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="629.0" prefWidth="480.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SuVeİcecekFormController">
+   <children>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="22.0" layoutY="14.0" nodeOrientation="INHERIT">
+         <image>
+            <Image url="@SuVeİcecekler/Kahve.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="22.0" layoutY="146.0" nodeOrientation="INHERIT">
+         <image>
+            <Image url="@SuVeİcecekler/kefir.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="28.0" layoutY="294.0" nodeOrientation="INHERIT">
+         <image>
+            <Image url="@SuVeİcecekler/kola.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="28.0" layoutY="460.0" nodeOrientation="INHERIT">
+         <image>
+            <Image url="@SuVeİcecekler/su1.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="239.0" layoutY="23.0">
+         <image>
+            <Image url="@SuVeİcecekler/Redbull.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="239.0" layoutY="146.0">
+         <image>
+            <Image url="@SuVeİcecekler/sogukcay.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="239.0" layoutY="294.0">
+         <image>
+            <Image url="@SuVeİcecekler/ayran.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="120.0" layoutX="239.0" layoutY="460.0">
+         <image>
+            <Image url="@SuVeİcecekler/meyvesuyu1.jpeg" />
+         </image>
+      </ImageView>
+            <Button fx:id="btn_sepet" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="222.0" layoutY="583.0" mnemonicParsing="false" onAction="#btn_sepet_click" prefHeight="31.0" prefWidth="38.0" style="-fx-padding: 0; -fx-border-width: 2; -fx-border-color: #ca71d6;">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0">
+               <image>
+                  <Image url="@SepetDeneme.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="btn" fx:id="nescafe" layoutX="133.0" layoutY="61.0" mnemonicParsing="false" onAction="#btn_nescafe" prefHeight="18.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="kefir" layoutX="133.0" layoutY="194.0" mnemonicParsing="false" onAction="#btn_kefir" prefHeight="18.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="kola" layoutX="133.0" layoutY="329.0" mnemonicParsing="false" onAction="#btn_kola" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="su" layoutX="133.0" layoutY="507.0" mnemonicParsing="false" onAction="#btn_su" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="redbull" layoutX="351.0" layoutY="61.0" mnemonicParsing="false" onAction="#btn_redbull" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="lipton" layoutX="351.0" layoutY="194.0" mnemonicParsing="false" onAction="#btn_lipton" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="ayran" layoutX="351.0" layoutY="329.0" mnemonicParsing="false" onAction="#btn_ayran" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="meyvesuyu" layoutX="351.0" layoutY="507.0" mnemonicParsing="false" onAction="#btn_meyvesuyu" stylesheets="@application.css" text="Sepete Ekle" />
+   </children>
+</AnchorPane>

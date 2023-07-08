@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="629.0" prefWidth="480.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DondurmaController">
+   <children>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="21.0" layoutY="24.0">
+         <image>
+            <Image url="@dondurma/golfbravo_dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="21.0" layoutY="152.0">
+         <image>
+            <Image url="@dondurma/boom_dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="21.0" layoutY="300.0">
+         <image>
+            <Image url="@dondurma/oreo_dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="21.0" layoutY="448.0">
+         <image>
+            <Image url="@dondurma/nogger_dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="256.0" layoutY="24.0">
+         <image>
+            <Image url="@dondurma/golfmaraş-dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="256.0" layoutY="300.0">
+         <image>
+            <Image url="@dondurma/snickers_dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="256.0" layoutY="448.0">
+         <image>
+            <Image url="@dondurma/toblerone_dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="125.0" fitWidth="105.0" layoutX="256.0" layoutY="152.0">
+         <image>
+            <Image url="@dondurma/golfbravokaramel_dondurma.jpeg" />
+         </image>
+      </ImageView>
+      <Button id="btn" fx:id="bravo" layoutX="136.0" layoutY="88.0" mnemonicParsing="false" onAction="#btn_bravo" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+            <Button fx:id="btn_sepet" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="222.0" layoutY="583.0" mnemonicParsing="false" onAction="#btn_sepet_click" prefHeight="31.0" prefWidth="38.0" style="-fx-padding: 0; -fx-border-width: 2; -fx-border-color: #ca71d6;">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0">
+               <image>
+                  <Image url="@SepetDeneme.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="btn" fx:id="boom" layoutX="136.0" layoutY="217.0" mnemonicParsing="false" onAction="#btn_boom" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="oreo" layoutX="136.0" layoutY="343.0" mnemonicParsing="false" onAction="#btn_oreo" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="nogger" layoutX="136.0" layoutY="495.0" mnemonicParsing="false" onAction="#btn_nogger" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="maras" layoutX="361.0" layoutY="88.0" mnemonicParsing="false" onAction="#btn_maras" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="bravoaltın" layoutX="361.0" layoutY="217.0" mnemonicParsing="false" onAction="#btn_bravoaltın" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="snickers" layoutX="361.0" layoutY="343.0" mnemonicParsing="false" onAction="#btn_snickers" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="toblerone" layoutX="361.0" layoutY="495.0" mnemonicParsing="false" onAction="#btn_toblerone" prefHeight="30.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+   </children>
+</AnchorPane>

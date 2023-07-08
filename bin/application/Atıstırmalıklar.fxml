@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="629.0" prefWidth="480.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AtıstırmalıklarFormController">
+   <children>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="252.0" layoutY="375.0">
+         <image>
+            <Image url="@Atıstırmalıklar/cin.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="252.0" layoutY="255.0">
+         <image>
+            <Image url="@Atıstırmalıklar/cocostar.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="252.0" layoutY="134.0">
+         <image>
+            <Image url="@Atıstırmalıklar/halley.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="252.0" layoutY="10.0">
+         <image>
+            <Image url="@Atıstırmalıklar/tutku.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="12.0" layoutY="481.0">
+         <image>
+            <Image url="@Atıstırmalıklar/albeni.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="12.0" layoutY="375.0">
+         <image>
+            <Image url="@Atıstırmalıklar/atıştırmalık_brownivişne.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="12.0" layoutY="255.0">
+         <image>
+            <Image url="@Atıstırmalıklar/atıştırmalık_patlamışmısır.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="12.0" layoutY="130.0">
+         <image>
+            <Image url="@Atıstırmalıklar/atıştırmalık_sütburger.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="12.0" layoutY="10.0">
+         <image>
+            <Image url="@Atıstırmalıklar/nero.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="252.0" layoutY="481.0">
+         <image>
+            <Image url="@Atıstırmalıklar/ikramfındıklı.jpeg" />
+         </image>
+      </ImageView>
+      <Button id="btn" fx:id="albeni" alignment="CENTER" layoutX="132.0" layoutY="526.0" mnemonicParsing="false" onAction="#btn_albeni" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button fx:id="btn_sepet" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" layoutX="222.0" layoutY="583.0" mnemonicParsing="false" onAction="#btn_sepet_click" prefHeight="31.0" prefWidth="38.0" style="-fx-padding: 0; -fx-border-width: 2; -fx-border-color: #ca71d6;">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0">
+               <image>
+                  <Image url="@SepetDeneme.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="btn" fx:id="cocostar" alignment="CENTER" layoutX="358.0" layoutY="300.0" mnemonicParsing="false" onAction="#btn_cocostar" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="halley" alignment="CENTER" layoutX="358.0" layoutY="175.0" mnemonicParsing="false" onAction="#btn_halley" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="tutku" alignment="CENTER" layoutX="358.0" layoutY="45.0" mnemonicParsing="false" onAction="#btn_tutku" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="brovni" alignment="CENTER" layoutX="132.0" layoutY="420.0" mnemonicParsing="false" onAction="#btn_brovni" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="popcorn" alignment="CENTER" layoutX="132.0" layoutY="300.0" mnemonicParsing="false" onAction="#btn_popcorn" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="sutburger" alignment="CENTER" layoutX="132.0" layoutY="175.0" mnemonicParsing="false" onAction="#btn_sutburger" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="nero" alignment="CENTER" layoutX="132.0" layoutY="45.0" mnemonicParsing="false" onAction="#btn_nero" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="cin" alignment="CENTER" layoutX="358.0" layoutY="420.0" mnemonicParsing="false" onAction="#btn_cin" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+      <Button id="btn" fx:id="ikram" alignment="CENTER" layoutX="358.0" layoutY="526.0" mnemonicParsing="false" onAction="#btn_ikram" prefHeight="0.0" prefWidth="108.0" stylesheets="@application.css" text="Sepete Ekle" />
+   </children>
+</AnchorPane>

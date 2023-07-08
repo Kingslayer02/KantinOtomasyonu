@@ -1,0 +1,22 @@
+#btn {
+    -fx-background-color: linear-gradient(#9500f2, #f1deff);
+    -fx-background-radius: 28px;
+    -fx-font-family: Georgia;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 17px;
+    -fx-padding: 5px 10px;
+    -fx-text-decoration: none;
+    -fx-background-image: linear-gradient(to bottom, #9500f2, #f1deff);
+}
+
+#btn:hover {
+    -fx-background-color: linear-gradient(#e6c1f7, #e51cff);
+    -fx-background-image: linear-gradient(to bottom, #e6c1f7, #e51cff);
+    -fx-text-decoration: none;
+}
+#btn:pressed{
+    -fx-background-color: linear-gradient(#e9baff, #ca71d6),
+                          linear-gradient(from 0% 0% to 0% 100%, rgba(200, 128, 255, 0.4), rgba(200, 128, 255, 0.2));
+    -fx-background-radius: 28px;
+	
+}
