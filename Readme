@@ -1,1 +1,16 @@
 
+# Kantin Otomasyonu - JavaFX Uygulaması
+
+Bu proje, bir kantin otomasyonu için basit bir JavaFX uygulamasıdır. Kullanıcılar, kantin ürünleri, siparişleri görüntüleyebileceğiniz bir adet sepet sipariş için bir bir alan bulunuyor.
+## Özellikler
+
+- Kantin ürünleri listeleme, ekleme, düzenleme ve silme
+- Sipariş oluşturma ve güncelleme
+- Stok durumu takibi
+## Gereksinimler
+
+- Java SE 8 veya üzeri bir JDK
+- JavaFX kitaplıklarını içeren bir Java IDE (Eclipse, IntelliJ IDEA vb.)
+## Kurulum
+
+1. Bu depoyu bilgisayarınıza klonlayın veya ZIP dosyası olarak indirin.
